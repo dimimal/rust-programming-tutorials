@@ -31,3 +31,45 @@
 
 # Temporary
 .cache/
+
+# Linux and C/C++ build artifacts
+# object files
+*.o
+*.obj
+*.lo
+
+# static libs and archives
+*.a
+*.la
+
+# shared libraries and versioned shared libraries
+*.so
+*.so.*
+
+# linker maps, symbol files
+*.map
+
+# core dumps
+core
+core.*
+
+# common build directories
+/build/
+/bin/
+/lib/
+/obj/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# libtool
+.libs/
+
+# autotools
+*.lo
+*.la
+.deps/
+
